@@ -1,0 +1,140 @@
+/*Author :Mekha R*/
+/*17/01/2021*/
+.image{
+	background-image: url("../img/academy-banner.jpg");
+}
+.logo{
+	display: flex;
+	justify-content: end;
+}
+.vh-50{
+	height: 50vh;
+}
+.vh-53{
+	height: 53vh;
+}
+.font{
+	font-size: 25px;
+}
+.font1{
+	font-size: 55px;
+}
+.font2{
+	font-size: 25px;
+}
+.vh-40{
+	height: 40vh;
+}
+.height{
+	height: 60vh;
+}
+.height1{
+	height: auto;
+}
+.vh-60{
+	height: 60vh;
+}
+.w{
+	width: 600px;
+}
+.margin{
+	margin-top: 60px;
+}
+/*.w-120{
+	width: 105px;
+}*/
+.image2{
+	background-image: url("../img/modulebg.jpg");
+}
+.main{
+	position: relative;
+}
+
+.feature{
+	position: absolute;
+	top:20%;
+	left: 50%;
+	width: 55%;
+}
+.feature div p::before{
+	content: "{";
+	color:#f00;
+}
+.feature div p::after{
+	content: "}";
+	color:#f00;
+}
+.image2-height{
+	height: auto;
+}
+
+.image-footer{
+	background-image: url("../img/testsbg.jpg");
+}
+.image2-footer{
+	background-image: url("../img/intrvwbg.jpg");
+}
+@media only screen and (max-width: 576px)
+{
+	.img{
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.logo{
+	display: flex;
+	justify-content: center;
+    }
+	.main{
+		position: relative;
+	}
+	.feature{
+      width:100%;
+      position: absolute;
+      top:42vh;
+      left: 0;
+	}
+	.image{
+		background-image: none;
+		background-color: pink;
+	}
+	/*.image2{
+		position: relative;
+	}
+	.item{
+		position: absolute;
+		left: 0
+	}*/
+	.font{
+		font-size: 20px;
+	    text-align: center;
+	}
+	.font2{
+	font-size: 20px;
+}
+.vh-40{
+	height: auto;
+}
+.margin{
+	margin-top: 0;
+}
+.w1{
+    width: 200px;
+   }
+   .font4{
+   	font-size: 14px;
+   }
+   .image2-height{
+	height: 200vh;
+    }
+    .height1{
+	height: 80vh;
+}
+.logo{
+	text-align: center;
+}
+.logo1{
+	text-align: center;
+}
+}
